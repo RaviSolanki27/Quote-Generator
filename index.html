@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./index.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&family=Source+Sans+Pro&family=Tangerine&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&family=Roboto&family=Source+Sans+Pro&family=Tangerine&display=swap" rel="stylesheet">
+        <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="wrapper">
+            <ul class="bg-bubbles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="outer-box">
+            <div class="inner-box">
+                <div class="quote-disp">
+                    <div>
+                        <div id="quote">
+                        </div>
+                        <div id="author"></div>
+                    </div>
+                </div>
+                <div><button id="newQ">NEW QUOTE</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js">
+
+    </script>
+    <!-- <script>
+        const getQuotes = async () => {
+            const api = "https://type.fit/api/quotes";
+            try {
+                let data = await fetch(api);
+                let realData = await data.json();
+                console.log(realData);
+            } catch (error) {
+
+            }
+        }
+
+        getQuotes();
+    </script> -->
+</body>
+
+</html>
